@@ -1,0 +1,67 @@
+127.0.0.1 local.host
+
+st Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1   localhost
+255.255.255.255 broadcasthost
+::1             localhost 
+fe80::1%lo0 localhost
+
+#UPDATE:2013-12-07 12:16
+
+127.0.0.1 localhost
+#SmartHosts START
+
+#Google Services START
+173.194.126.128 plus.google.com
+
+203.208.46.200  map.google.com
+203.208.46.200  maps.google.com
+203.208.46.200  maps.l.google.com
+203.208.46.200  maps-api-ssl.google.com
+203.208.46.207  maps.gstatic.com
+203.208.46.200  maps.googleapis.com
+203.208.46.200  ditu.google.com
+203.208.46.200  code.google.com
+173.194.38.136  groups.google.com
+203.208.46.222  smarthosts.googlecode.com
+203.208.46.200  www.google.com.hk
+173.194.38.136  www.google.com
+203.208.46.222  www.google-analytics.com
+203.208.46.200  chrome.google.com
+
+203.208.46.200  www.google.com.hk
+
+173.194.66.95   ajax.googleapis.com
+
+#Google Services END
+
+#stackoverflow START
+198.252.206.140 cdn.sstatic.net
+#stackoverflow END
+
+#Adobe Activation START
+0.0.0.0 3dns-2.adobe.com
+0.0.0.0 3dns-3.adobe.com
+0.0.0.0 activate.adobe.com
+0.0.0.0 activate-sea.adobe.com
+0.0.0.0 activate-sjc0.adobe.com
+0.0.0.0 adobe-dns.adobe.com
+0.0.0.0 adobe-dns-2.adobe.com
+0.0.0.0 adobe-dns-3.adobe.com
+0.0.0.0 ereg.adobe.com
+0.0.0.0 hl2rcv.adobe.com
+0.0.0.0 practivate.adobe.com
+0.0.0.0 wip3.adobe.com
+0.0.0.0 activate.wip3.adobe.com
+0.0.0.0 ereg.wip3.adobe.com
+0.0.0.0 wwis-dubc1-vip60.adobe.com
+#Adobe Activation END
+
+# Github START
+185.31.17.184 github.global.ssl.fastly.net
+# Github END
+#SmartHosts END
